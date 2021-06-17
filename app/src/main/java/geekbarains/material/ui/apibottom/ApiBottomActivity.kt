@@ -50,10 +50,13 @@ class ApiBottomActivity : AppCompatActivity() {
         bottom_navigation_view.setOnNavigationItemReselectedListener { item ->
             when (item.itemId) {
                 R.id.bottom_view_earth -> {
+
                 }
                 R.id.bottom_view_mars -> {
+
                 }
                 R.id.bottom_view_weather -> {
+
                 }
             }
         }
